@@ -9,6 +9,7 @@ public class Graph {
 	
 	public Graph(int novert) {
 		this.novert=novert;
+		//Comment added
 		va=new LinkedList[novert];
 		for (int i = 0; i < novert; i++) {
 			va[i]=new LinkedList<Integer>();

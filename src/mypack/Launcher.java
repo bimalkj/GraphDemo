@@ -14,7 +14,7 @@ public class Launcher {
       
 		
 		for (int i = 0; i < g.novert; i++) {
-			System.out.println("vertex "+i);
+			System.out.println("vertex:"+i);
 			g.BFT(i);
 			System.out.println();
 		}
